@@ -52,8 +52,8 @@ corresponding applications in the disguise feature.
 
 ## Fonts
 
-This build does not load Google Fonts at runtime. The UI uses system fonts and
-any font files bundled in the upstream assets, under their respective licenses.
+The UI uses system fonts and any font files bundled in the upstream assets,
+under their respective licenses.
 
 ## No affiliation
 

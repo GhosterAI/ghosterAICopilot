@@ -1,11 +1,7 @@
 GhosterAI 3.3.5 local build — NOTICE
 
-This package contains a local, key-free build of the GhosterAI desktop client
-for Windows x64.
-
-No API keys, account tokens or cloud credentials are included. The application
-does not include a Ghoster account service, Supabase synchronization or Sentry
-telemetry. The user supplies API keys at runtime; they are stored in the local
+This package contains a local build of the GhosterAI desktop client for
+Windows x64. The user supplies API keys at runtime; they are stored in the local
 WebView2 profile as described in docs/API_KEYS.ru.md.
 
 FFmpeg
