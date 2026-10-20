@@ -71,6 +71,10 @@ def main() -> None:
             text = path.read_text(encoding="utf-8", errors="ignore")
             scan(text, str(path.relative_to(ROOT)), findings)
 
+    readme = ROOT / "README.md"
+    if readme.exists():
+        scan(readme.read_text(encoding="utf-8", errors="ignore"), readme.name, findings)
+
     if EXE.exists():
         scan(EXE.read_bytes().decode("latin-1", errors="ignore"), EXE.name, findings)
 
