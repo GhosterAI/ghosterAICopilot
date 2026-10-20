@@ -1,0 +1,34 @@
+# Upstream application and original assets (contain secrets; never commit)
+App/
+
+# Generated sanitized web assets (derived from upstream; rebuild locally)
+src/web-dist/
+
+# Large/generated binaries
+build/GhosterAI-patched.exe
+build/*.exe
+build/ffmpeg/
+build/test-run/
+build/test-fresh/
+build/*.log
+build/*.png
+build/*.bak*
+dist/*.exe
+dist/*.zip
+dist/portable/
+dist/stage/
+
+# Installer output
+installer/Output/
+*.iss.bak
+
+# Local tooling
+node_modules/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Backups and test profiles
+*.bak-*
+*.backup

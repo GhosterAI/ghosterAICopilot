@@ -1,0 +1,51 @@
+GhosterAI 3.3.5 local build — NOTICE
+
+This package contains a local, key-free build of the GhosterAI desktop client
+for Windows x64.
+
+No API keys, account tokens or cloud credentials are included. The application
+does not include a Ghoster account service, Supabase synchronization or Sentry
+telemetry. The user supplies API keys at runtime; they are stored in the local
+WebView2 profile as described in docs/API_KEYS.ru.md.
+
+FFmpeg
+------
+
+The package includes:
+
+    ffmpeg/windows/x86_64/ffmpeg.exe
+
+    FFmpeg version N-124795-gc27a3b12e3-20260604
+    Copyright (c) 2000-2026 the FFmpeg developers
+    License: GNU General Public License version 3 (GPLv3)
+    SHA-256: 0A5ECF46B68E11732093A56CDA04E6072BA2C417FD4C9F7940E030F6C3DC6BAA
+
+FFmpeg is free software; you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. FFmpeg is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+The corresponding source code and build configuration are described in
+FFMPEG_SOURCE_OFFER.md. A copy of GPLv3 is available at
+https://www.gnu.org/licenses/gpl-3.0.html.
+
+Other third-party components
+----------------------------
+
+The application bundles open-source JavaScript libraries, fonts, icons and
+other components. See THIRD_PARTY_NOTICES.md and the license files shipped in
+src/web-dist (for example disguise-icons/LICENSE-dashboard-icons.txt). Those
+components remain under their respective licenses.
+
+The GhosterAI application binary is freeware/proprietary; see LICENSE-APP.
+Build scripts, documentation and installer source are MIT-licensed; see
+LICENSE.
+
+Trademarks
+----------
+
+OpenAI, Google, Gemini, Anthropic, OpenRouter, DeepSeek, Groq, Mistral, xAI,
+Together, Perplexity and other provider names are trademarks of their
+respective owners. This project is not affiliated with or endorsed by them.

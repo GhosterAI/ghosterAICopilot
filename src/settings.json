@@ -1,0 +1,915 @@
+{
+  "audioBufferDuration": 4.0,
+  "metaKeySuppressorEnabled": false,
+  "passThrough": false,
+  "audioSourceMode": "both",
+  "windowMoveStep": 50,
+  "meetingPanelLayout": {
+    "controls": {
+      "controls": [
+        {
+          "area": "toolbar",
+          "id": "audio",
+          "lastVisibleArea": "toolbar"
+        },
+        {
+          "area": "toolbar",
+          "id": "dragArea",
+          "lastVisibleArea": "toolbar"
+        },
+        {
+          "area": "toolbar",
+          "id": "model",
+          "lastVisibleArea": "toolbar"
+        },
+        {
+          "area": "toolbar",
+          "id": "systemDesign",
+          "lastVisibleArea": "toolbar"
+        },
+        {
+          "area": "toolbar",
+          "id": "notes",
+          "lastVisibleArea": "toolbar"
+        },
+        {
+          "area": "toolbar",
+          "id": "settings",
+          "lastVisibleArea": "toolbar"
+        },
+        {
+          "area": "composer",
+          "id": "subchats",
+          "lastVisibleArea": "composer"
+        },
+        {
+          "area": "composer",
+          "id": "context",
+          "lastVisibleArea": "composer"
+        },
+        {
+          "area": "composer",
+          "id": "aiFeatures",
+          "lastVisibleArea": "composer"
+        },
+        {
+          "area": "composer",
+          "id": "screenshots",
+          "lastVisibleArea": "composer"
+        },
+        {
+          "area": "composer",
+          "id": "teleprompter",
+          "lastVisibleArea": "composer"
+        },
+        {
+          "area": "composer",
+          "id": "autoSpeech",
+          "lastVisibleArea": "composer"
+        },
+        {
+          "area": "composer",
+          "id": "autoAnswer",
+          "lastVisibleArea": "composer"
+        },
+        {
+          "area": "composer",
+          "id": "clearContext",
+          "lastVisibleArea": "composer"
+        }
+      ],
+      "version": 4
+    },
+    "quickActionsVisible": true,
+    "viewModeSwitchVisible": true
+  },
+  "enableVirtualCursorOnAreaScreenshot": true,
+  "cursorProtectionAlwaysOn": false,
+  "isContentProtectionEnabled": true,
+  "overlayPosition": {
+    "x": 695,
+    "y": 305
+  },
+  "windowResizeStep": 50,
+  "httpProxyUrl": "",
+  "overlaySize": {
+    "height": 500,
+    "width": 530
+  },
+  "onboardingCompleted": true,
+  "interviewRecordingQuality": {
+    "audioBitrateKbps": 192,
+    "fps": 30,
+    "maxHeight": 2160,
+    "maxWidth": 3840,
+    "microphoneVolumePercent": 100,
+    "preset": "high",
+    "systemAudioVolumePercent": 100,
+    "videoCrf": 18
+  },
+  "ttsSettings": {
+    "autoSpeakAiResponses": false,
+    "ttsOutputDeviceId": "default",
+    "ttsPan": 0,
+    "ttsSkipCodeBlocks": true,
+    "ttsSpeed": 1,
+    "ttsVoice": "Adrian",
+    "ttsVolume": 100
+  },
+  "audioUserRecordingMode": "vad",
+  "onboardingIntroSeen": true,
+  "nonActivatingOverlay": false,
+  "silenceThreshold": -40,
+  "quickActions": [
+    {
+      "effort": "none",
+      "id": "action1",
+      "imageRepresentation": "raw",
+      "includeScreenshot": true,
+      "label": "Анализ экрана",
+      "message": "Подскажи",
+      "model": null,
+      "screenshotType": "full",
+      "shortcut": {
+        "bindType": "keyboard",
+        "keybind": "1",
+        "requiresAlt": false,
+        "requiresCtrl": true,
+        "requiresShift": false
+      }
+    },
+    {
+      "effort": "none",
+      "id": "action2",
+      "imageRepresentation": "raw",
+      "includeScreenshot": false,
+      "label": "Что сказать",
+      "message": "Подскажи, что мне сказать?",
+      "model": null,
+      "shortcut": {
+        "bindType": "keyboard",
+        "keybind": "2",
+        "requiresAlt": false,
+        "requiresCtrl": true,
+        "requiresShift": false
+      }
+    },
+    {
+      "effort": "none",
+      "id": "action3",
+      "imageRepresentation": "raw",
+      "includeScreenshot": false,
+      "label": "Резюме",
+      "message": "Дай краткое содержание диалога",
+      "model": null,
+      "shortcut": {
+        "bindType": "keyboard",
+        "keybind": "3",
+        "requiresAlt": false,
+        "requiresCtrl": true,
+        "requiresShift": false
+      }
+    }
+  ],
+  "customKeybinds": [
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleWindow",
+      "keybind": "B",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "togglePassThrough",
+      "keybind": "W",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleTeleprompter",
+      "keybind": "T",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleTeleprompterPlayback",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleTeleprompterPassThrough",
+      "keybind": "W",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleVirtualCursor",
+      "keybind": "V",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleCursorProtection",
+      "keybind": "Z",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "takeFullScreenshot",
+      "keybind": "H",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "takeAreaScreenshot",
+      "keybind": "H",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "moveLeft",
+      "keybind": "Left",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "moveRight",
+      "keybind": "Right",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "moveUp",
+      "keybind": "Up",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "moveDown",
+      "keybind": "Down",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "cancelGeneration",
+      "keybind": "G",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleLastAiSpeech",
+      "keybind": "S",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleAutoAiSpeech",
+      "keybind": "S",
+      "mouseButton": null,
+      "requiresAlt": true,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "sendToChat",
+      "keybind": "Enter",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "sendToChatNoScreenshot",
+      "keybind": "Enter",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quit",
+      "keybind": "Q",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "decreaseAlpha",
+      "keybind": "[",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "increaseAlpha",
+      "keybind": "]",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "prevSubchat",
+      "keybind": "K",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "nextSubchat",
+      "keybind": "L",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "createSubchat",
+      "keybind": "P",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleSubchats",
+      "keybind": "P",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "scrollMessagesUp",
+      "keybind": "Up",
+      "mouseButton": null,
+      "requiresAlt": true,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "scrollMessagesDown",
+      "keybind": "Down",
+      "mouseButton": null,
+      "requiresAlt": true,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "scrollToBottom",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "resizeLeft",
+      "keybind": "Left",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "resizeRight",
+      "keybind": "Right",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "resizeUp",
+      "keybind": "Up",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "resizeDown",
+      "keybind": "Down",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction1",
+      "keybind": "1",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction2",
+      "keybind": "2",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction3",
+      "keybind": "3",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction4",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction5",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction6",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction7",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction8",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction9",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "quickAction10",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "selectModel1",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "selectModel2",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "selectModel3",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "selectModel4",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "selectModel5",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "rotateModel",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleAudio",
+      "keybind": "R",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleNotes",
+      "keybind": "N",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "focusInput",
+      "keybind": "D",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleAutoAnswer",
+      "keybind": "A",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "clearContext",
+      "keybind": "X",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": true,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "toggleTheme",
+      "keybind": "",
+      "mouseButton": null,
+      "requiresAlt": false,
+      "requiresControl": false,
+      "requiresCtrl": false,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "prevAnswer",
+      "keybind": "Left",
+      "mouseButton": null,
+      "requiresAlt": true,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    },
+    {
+      "bindType": "keyboard",
+      "disableOnHidden": null,
+      "id": "nextAnswer",
+      "keybind": "Right",
+      "mouseButton": null,
+      "requiresAlt": true,
+      "requiresControl": false,
+      "requiresCtrl": true,
+      "requiresShift": false,
+      "requiresToken": null
+    }
+  ],
+  "quickActionSets": {
+    "activeSetId": "quick-action-set-default",
+    "sets": [
+      {
+        "actions": [
+          {
+            "effort": "none",
+            "id": "action1",
+            "imageRepresentation": "raw",
+            "includeScreenshot": true,
+            "label": "Анализ экрана",
+            "message": "Подскажи",
+            "model": null,
+            "screenshotType": "full",
+            "shortcut": {
+              "bindType": "keyboard",
+              "keybind": "1",
+              "requiresAlt": false,
+              "requiresCtrl": true,
+              "requiresShift": false
+            }
+          },
+          {
+            "effort": "none",
+            "id": "action2",
+            "imageRepresentation": "raw",
+            "includeScreenshot": false,
+            "label": "Что сказать",
+            "message": "Подскажи, что мне сказать?",
+            "model": null,
+            "shortcut": {
+              "bindType": "keyboard",
+              "keybind": "2",
+              "requiresAlt": false,
+              "requiresCtrl": true,
+              "requiresShift": false
+            }
+          },
+          {
+            "effort": "none",
+            "id": "action3",
+            "imageRepresentation": "raw",
+            "includeScreenshot": false,
+            "label": "Резюме",
+            "message": "Дай краткое содержание диалога",
+            "model": null,
+            "shortcut": {
+              "bindType": "keyboard",
+              "keybind": "3",
+              "requiresAlt": false,
+              "requiresCtrl": true,
+              "requiresShift": false
+            }
+          }
+        ],
+        "id": "quick-action-set-default",
+        "name": "Основной"
+      }
+    ],
+    "version": 1
+  },
+  "audioRecordingMode": "vad",
+  "autoAnswer": true,
+  "version": "3.3.5",
+  "transcribeModel": "whisper-large-v3-turbo",
+  "transcribeLanguage": "ru",
+  "ttsVoice": "aG9q1I1wTbfHh5sbpJnp"
+}

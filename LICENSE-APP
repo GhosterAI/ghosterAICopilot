@@ -1,0 +1,67 @@
+GhosterAI Freeware License (proprietary)
+
+Copyright (c) 2026 GhosterAI. All rights reserved.
+
+This license applies to the GhosterAI application binary and the installer or
+portable package that contains it (the "Software"). The build scripts,
+documentation and installer source in this repository are licensed separately
+under the MIT License in LICENSE.
+
+1. Grant of use
+
+The Software is freeware. You may use it free of charge for personal and
+commercial purposes, and you may redistribute unmodified copies of the
+official installer or portable package, provided that this license, NOTICE and
+all copyright notices remain included.
+
+2. Restrictions
+
+You may not:
+
+- reverse engineer, decompile, disassemble or otherwise attempt to derive the
+  source code of the Software, except to the extent permitted by applicable law;
+- modify, patch, rebrand or create derivative works of the application binary;
+- remove or alter copyright, license or attribution notices;
+- sell the Software as your own product or bundle it with paid services
+  without written permission;
+- use the Software to violate the terms of any third-party API provider.
+
+3. Third-party services and keys
+
+The Software is a client. It does not include API keys, accounts, subscriptions
+or credits. You are responsible for obtaining keys and for complying with the
+terms, acceptable-use policies and billing rules of the providers you use.
+Requests go directly from your computer to the provider you select.
+
+4. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. YOU USE THE
+SOFTWARE AT YOUR OWN RISK.
+
+5. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHORS AND COPYRIGHT HOLDERS ARE
+NOT LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS
+USE. THIS INCLUDES, WITHOUT LIMITATION, LOSS OF DATA, LOSS OF PROFITS, API
+CHARGES, SERVICE INTERRUPTIONS AND DAMAGE TO EQUIPMENT.
+
+6. Termination
+
+This license terminates automatically if you breach its terms. On termination
+you must stop using the Software and delete all copies. Sections 2-5 survive
+termination.
+
+7. Third-party components
+
+The Software includes third-party components under their own licenses,
+including FFmpeg under GPLv3. See NOTICE, FFMPEG_SOURCE_OFFER.md and
+THIRD_PARTY_NOTICES.md. Those licenses prevail over this license for the
+respective components.
+
+8. Contact
+
+For permissions beyond this license, open an issue at
+https://github.com/GhosterAI/ghosterAICopilot/issues.
