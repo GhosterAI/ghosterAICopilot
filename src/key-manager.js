@@ -1,10 +1,11 @@
 /*
  * GhosterAI local API-key manager.
  *
- * This module replaces the former Sentry bundle (assets/index-DJXE-m4X.js).
- * It is a side-effect ES module: importing it installs the key UI.  It also
- * exports no-op Sentry lookalikes because the old entry module still calls
- * init()/withScope()/captureException() from the error boundaries.
+ * This module replaces the former error-reporting bundle
+ * (assets/index-DJXE-m4X.js). It is a side-effect ES module: importing it
+ * installs the key UI. It also exports no-op error-reporting lookalikes because
+ * the old entry module still calls init()/withScope()/captureException() from
+ * the error boundaries.
  *
  * Keys live only in localStorage, in plain text.  Never log configuration.
  */
