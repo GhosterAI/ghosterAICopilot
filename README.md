@@ -4,7 +4,6 @@
 
 ![Version](https://img.shields.io/badge/Version-3.3.5--Local-3b82f6?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Windows-10%2F11%20x64-0078D4?style=for-the-badge&logo=windows)
-![Tauri](https://img.shields.io/badge/Tauri-v2-Rust_Core-ea580c?style=for-the-badge&logo=tauri)
 ![UI](https://img.shields.io/badge/UI-React_19_%2F_Tailwind-06B6D4?style=for-the-badge&logo=react)
 ![Keys](https://img.shields.io/badge/API_Keys-Bring_Your_Own-22c55e?style=for-the-badge)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-GPLv3-10b981?style=for-the-badge)
